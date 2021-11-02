@@ -61,6 +61,8 @@ public class DemoAppConfig {
 
         //log the connection props
 
+        logger.info(">>> jdbc.url=" + environment.getProperty("jdbc.url"));
+        logger.info(">>> jdbc.user=" + environment.getProperty("jdbc.user"));
 
         //set DB connection props
 
